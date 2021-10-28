@@ -1,0 +1,81 @@
+.scroll-infinity {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scroll-infinity .wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.scroll-infinity .wrapper div {
+  color: #000;
+  font-size: 4em;
+  background: #DDD;
+  white-space: nowrap;
+  font-weight: 900;
+  text-transform: uppercase;
+  animation: animate 40s linear infinite;
+  animation-delay: -40s;
+}
+
+.scroll-infinity .wrapper div:nth-child(2) {
+  animation: animate2 40s linear infinite;
+  animation-delay: -20s;
+}
+
+.scroll-infinity .wrapper div span {
+  -webkit-text-stroke: 2px #000;
+  color: transparent;
+  padding-right: 15px;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(100%)
+  }
+
+  100% {
+    transform: translateX(-100%)
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateX(0)
+  }
+
+  100% {
+    transform: translateX(-200%)
+  }
+}
+
+.scroll-infinity .block1 {
+  transform: rotate(30deg) translateY(200px) translateX(-200px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-infinity .block2 {
+  transform: rotate(-25deg) translateY(120px) translateX(-200px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-infinity .block3 {
+  transform: rotate(25deg) translateY(300px) translateX(-200px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-infinity .block4 {
+  transform: rotate(-2deg) translateY(-150px) translateX(-200px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-infinity .block5 {
+  transform: rotate(5deg) translateY(250px) translateX(-200px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-infinity .block6 {
+  transform: rotate(1deg) translateY(325px) translateX(-200px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}

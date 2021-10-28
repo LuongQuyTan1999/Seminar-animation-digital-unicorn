@@ -1,0 +1,29 @@
+.wrapper-digital-crown .digital-crown{
+    position: relative;
+}
+.wrapper-digital-crown .digital-crown .digital-crown__para {
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    top: 43%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wrapper-digital-crown .digital-crown .digital-crown__para p{
+    width: 484px;
+    color: #d1e8fd;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+}
+.wrapper-digital-crown .digital-crown .digital-crown__para p strong{
+    color: #FFF
+ }

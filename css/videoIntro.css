@@ -1,0 +1,67 @@
+.wrapper-video-intro {
+  height: 300vh;
+  background: rgba(0, 0, 0, 1);
+
+
+}
+
+@media (min-width: 1400px) {
+  .wrapper-video-intro {
+    height: 250vh;
+  }
+}
+
+.wrapper-video-intro .video-intro {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.wrapper-video-intro .video-intro {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.wrapper-video-intro .video-intro .title-hight-audio h1 {
+  color: #FFF;
+  padding: 35% 0 10vh;
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrapper-video-intro .video-intro .title-active h1 {
+  color: #FFF;
+  padding: 10% 0 10vh;
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrapper-video-intro .video-intro .title-active-spatial h1 {
+  color: #FFF;
+  padding: 10% 0 10vh;
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrapper-video-intro .video-intro .title-active-stunning h1 {
+  color: #FFF;
+  padding: 10% 0 10vh;
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrapper-video-intro .video-intro .title-watch h2 {
+  font-size: 17px;
+  color: #FFF;
+  /* padding: 50vh 0 25vh; */
+  line-height: 1.05;
+  font-weight: 600;
+  text-align: center;
+}

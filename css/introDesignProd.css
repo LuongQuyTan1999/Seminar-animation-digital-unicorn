@@ -1,0 +1,29 @@
+.wrapper-intro-design-prod {
+  padding-top: 182px;
+}
+
+.wrapper-intro-design-prod .intro-design-prod {
+  width: 1228px;
+  margin: 0 auto;
+}
+
+.wrapper-intro-design-prod .intro-design-prod .title-design {
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 600;
+  letter-spacing: .002em;
+}
+
+.wrapper-intro-design-prod .intro-design-prod .title-a-radically {
+  font-size: 180px;
+  line-height: .83393;
+  font-weight: 600;
+  letter-spacing: 0em;
+}
+.wrapper-intro-design-prod .intro-design-prod .title-the-over {
+  margin-top: 80px;
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 600;
+  margin-left: 50%;
+}
